@@ -187,7 +187,6 @@
 		039F241B1F018FAA00489799 /* FBSDKSettingsInitializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSDKSettingsInitializer.h; sourceTree = "<group>"; };
 		039F241C1F018FAA00489799 /* FBSDKSettingsInitializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSDKSettingsInitializer.m; sourceTree = "<group>"; };
 		810192A31D01305400B9E881 /* FBProfilePictureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBProfilePictureView.swift; sourceTree = "<group>"; };
-		810192A51D01305400B9E881 /* AppEvents.Name.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppEvents.Name.swift; sourceTree = "<group>"; };
 		810192AA1D01305400B9E881 /* AccessToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessToken.swift; sourceTree = "<group>"; };
 		810192AD1D01305400B9E881 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		8115C0D81CFE540D001FF33B /* FacebookCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FacebookCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -478,7 +477,6 @@
 				8115C0D41CFE540D001FF33B /* Frameworks */,
 				8115C0D51CFE540D001FF33B /* Headers */,
 				8115C0D61CFE540D001FF33B /* Resources */,
-				5257097220F6C9800053B9E3 /* Swiftlint */,
 			);
 			buildRules = (
 			);
@@ -498,7 +496,6 @@
 				811C5DF61CFFD36600E4A925 /* Frameworks */,
 				811C5DF81CFFD36600E4A925 /* Headers */,
 				811C5DF91CFFD36600E4A925 /* Resources */,
-				525709A520F6CB740053B9E3 /* Swiftlint */,
 			);
 			buildRules = (
 			);
@@ -520,7 +517,6 @@
 				811C5E031CFFD36D00E4A925 /* Frameworks */,
 				811C5E051CFFD36D00E4A925 /* Headers */,
 				811C5E061CFFD36D00E4A925 /* Resources */,
-				525709A620F6CB830053B9E3 /* Swiftlint */,
 			);
 			buildRules = (
 			);
@@ -720,51 +716,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		5257097220F6C9800053B9E3 /* Swiftlint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = Swiftlint;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
-		};
-		525709A520F6CB740053B9E3 /* Swiftlint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = Swiftlint;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
-		};
-		525709A620F6CB830053B9E3 /* Swiftlint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = Swiftlint;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8115C0D31CFE540D001FF33B /* Sources */ = {
